@@ -1,4 +1,4 @@
-# S09 Experiment Code
+# Pretokenization and Asynchronous Checkpointing
 
 Python code for single-GPU fine-tuning experiments on pretokenized inputs and asynchronous checkpointing.
 
