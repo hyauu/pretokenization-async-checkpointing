@@ -1,0 +1,38 @@
+{
+  "round_id": "s09_replication_20261027",
+  "source_sha256": {
+    "host/analyze.py": "f3fc18082690959bacca2ef9afbbcbd83381ea92d216b80e119b672229daa167",
+    "host/build_protocol.py": "819b7fbbcd9871e06c3b9500a13908ccb514d4a4e64f3b1ed78f354338092562",
+    "host/controller.py": "80a269aebe85b82e07313d9d5836ed3200322f4f0812024a41e8f65f95148eba",
+    "host/finalize.py": "75f69e4816602cdd9583915bd8f714c7fe8f35e0941c3833bd3030c58e4d1381",
+    "host/runtime.py": "fedd2942cf7e3ffdd441da8fd040b0fb9d207ae52c76ebf7540659a6928ce9f8",
+    "src/checkpoint.py": "29ac9111f09ded3744655cf4e4dd45a2c748be7c586f6fe2b1fdc832b6a38262",
+    "src/clock_guest.py": "d928f59ab981166c556100bcbd4a96c72f0048d5c93d6377d6dcf436ba381199",
+    "src/common.py": "4da78d799e347d8d7c80997b5cac9248fa7c5c96b1ce5b143e96ccf0a77c3357",
+    "src/followup_train.py": "2b125b655d5649db73998cfa9bfa26c3ba688ce1009605ae9901a012f360db84",
+    "src/guest_worker.py": "8c7fd38f7693d55f78767007a95482e2ee7ce3223a9dd57240b22b404a0b592c",
+    "src/overlap_metrics.py": "cbdd27554d2d282954c0141735df6b5f034271df87b17f567b48e0a134c5a1ef",
+    "src/placement.py": "d7c7a7ace09e97cf66a7ae306671387e6d7dad1b4e3371886f4fd1a47f4d4ead",
+    "src/placement_launcher.py": "b8776b10083ea7df39489c55cd4ffa69761cee57ab33058afbc510a68554d806",
+    "src/specification.py": "46d00f23c5762314da39772466c94b409c4f095a175a62f5a9e25b80c0c04cbe",
+    "src/timing.py": "6cb022b37ef941768337a1c58e11759b1ba9abed2c9f33eeb45c32b89ba3e339",
+    "src/train_core.py": "6b31e2d495ee52ca047818f6ac8e26d524e2eedaf0545993e4fb58551dfa84f4",
+    "setup/archive_checkpoints.py": "c2198f86c6adb6b23bf1a425488f2bb577fa39d24dfc6970621eb22c3caa1dad",
+    "setup/check_contract.py": "bbfbd9995d2ec8348689327c8771bd7a371c3cc71eb43684e1eee2e31a201bd1",
+    "setup/launch_pipeline.py": "bc7508dec191aeac0fe5da48ebd080cc77d35e312c0aed0f57cf36ea9dbd7a6d",
+    "setup/prepare_environment.py": "a09cb58d12dbc547fb660ce535d2ad1a616d3daef660fa6a803bfbb9cb8a96ba",
+    "setup/verify_environment.py": "776987ae81906db2ba149481cf241e5f5913de4ac97bd7224a0fb6ef16d0bbc0"
+  },
+  "protocol_sha256": "1a37c123d31b9b16fe3b0eae1cf17fe0c32d0188c59612b8f523a4e0bdb7bedd",
+  "window": {
+    "total_seconds": 86400,
+    "preparation_counts": true,
+    "finalization_reserve_seconds": 10800,
+    "pause_does_not_extend": true,
+    "start_utc": "2026-10-27T17:01:50.7664234Z",
+    "training_stop_utc": "2026-10-28T14:01:50.7664234Z",
+    "deadline_utc": "2026-10-28T17:01:50.7664234Z",
+    "pre_freeze_revision_reason": "Reserve three hours for final checkpoint archive to USB HDD and readback SHA verification; same original 24h deadline, no extension."
+  },
+  "created_utc": "2026-10-27T17:32:20.827470+00:00"
+}

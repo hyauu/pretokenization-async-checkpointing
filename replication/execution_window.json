@@ -1,0 +1,10 @@
+{
+  "total_seconds": 86400,
+  "preparation_counts": true,
+  "finalization_reserve_seconds": 10800,
+  "pause_does_not_extend": true,
+  "start_utc": "2026-10-27T17:01:50.7664234Z",
+  "training_stop_utc": "2026-10-28T14:01:50.7664234Z",
+  "deadline_utc": "2026-10-28T17:01:50.7664234Z",
+  "pre_freeze_revision_reason": "Reserve three hours for final checkpoint archive to USB HDD and readback SHA verification; same original 24h deadline, no extension."
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pdf
+*.zip
+*.pt
+*.pth
+/data/
+/evidence/
+/figures/
+/tables/
+/analysis/paper_statistics.json
+/analysis/replication_groups.csv
+/artifact/data/
+/artifact/evidence/
+/replication/delivery/
+/replication/evidence/
+/replication/runs/
